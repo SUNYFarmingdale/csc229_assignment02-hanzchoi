@@ -2,7 +2,7 @@ package com.mycompany.csc229_211review_lab02hw;
 
 /**
  *
- * @author MoaathAlrajab
+ * @author Hanbi Hanz Choi
  */
 public abstract class Person {
 	
