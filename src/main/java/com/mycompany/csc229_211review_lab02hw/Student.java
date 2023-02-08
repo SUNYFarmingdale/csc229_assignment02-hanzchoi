@@ -13,6 +13,21 @@ public class Student extends Person{
     private double GPA;
 	
     // ToDo 2: Fix the resulting errors
+    public Student(String name, short age){
+        super(name, age);
+        address="";
+    }
+    
+    public Student(String name, short age, double GPA, String address){
+        super(name, age);
+        this.GPA = GPA;
+        this.address = address;
+                 
+    }
+    
+    
+    
+    
     // They wanted to override the get and set address 
     // I am not sure exacly why this is the case
     // Maybe something to do with the fact that those two methods are abstract
@@ -33,6 +48,12 @@ public class Student extends Person{
     
     public void setGPA(double GPA){
         this.GPA = GPA;
+    }
+    
+    @Override
+    public String toString(){
+        return getName() + " age:" + getAge() + " and address is " + getAddress()
+                    + " with GPA:" + getGPA();
     }
 
 }
