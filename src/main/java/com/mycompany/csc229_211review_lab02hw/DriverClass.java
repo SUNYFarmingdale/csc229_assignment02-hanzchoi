@@ -6,9 +6,7 @@ package com.mycompany.csc229_211review_lab02hw;
  */
 public class DriverClass {
 	
-	public static void main(String[] args) {
-		// ToDo 5: Fix the error
-		
+	public static void main(String[] args) {		
 		// ToDo 6: Fix the constructor of Student class
 		
 		// ToDo 7: Add a toString method for Student class
@@ -20,7 +18,6 @@ public class DriverClass {
 		
 		System.out.println(std1);
 		
-		// ToDo 9: add comments and explain your code
 		
 		// ToDo 10: submit using a pull request.
 	}
